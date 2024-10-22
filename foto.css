@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif,;
+    margin: 0;
+    padding: 0;
+    background-image: url('galaxy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+    color: pink;
+    Overflow-y:scroll;
+    overflow-x: hidden;
+
+    .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .button1 {background-color: #04AA6D;} /* Green */
+      .button2 {background-color: #008CBA;} /* Blue */
+}
+
+header {
+    background-color: #2b2d31;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    opacity:0.8;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    background-color: #666;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 60px;
+    min-height: calc(100vh - 150px); /* Adjust based on your footer height */
+    padding-bottom: 20px; /* Add some space at the bottom */
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    background-color: #2b2d31;
+    color: red;
+    padding: 0px ;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity:0.8;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    opacity:1;
+}
+
+h1 {
+    color: red;
+}
+
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: Arial, sans-serif,;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: Arial, sans-serif,;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 350px;
+}
+
+.gallery-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Hidden galleries */
+.gallery-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.gallery-content.active {
+    display: block;
+    opacity: 1;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    img.animated-gif{
+        width: 120px;
+        height: auto;
+      }
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}

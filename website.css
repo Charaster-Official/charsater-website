@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif,;
+    margin: 0;
+    padding: 0;
+    background-image: url('galaxy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+    color: pink;
+    Overflow-y:scroll;
+    overflow-x: hidden;
+
+    .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .button1 {background-color: #04AA6D;} /* Green */
+      .button2 {background-color: #008CBA;} /* Blue */
+}
+
+header {
+    background-color: #2b2d31;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    opacity:0.8;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    background-color: #666;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 60px;
+    min-height: calc(100vh - 150px); /* Adjust based on your footer height */
+    padding-bottom: 20px; /* Add some space at the bottom */
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    background-color: #2b2d31;
+    color: red;
+    padding: 0px ;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity:0.8;
+    made {
+        margin-left: -1740px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: -15px; 
+        font-size: 15px;
+      }
+
+      edited {
+        margin-left: -153px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: 0px; 
+        font-size: 15px;
+      }
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    opacity:1;
+}
+
+h1 {
+    color: red;
+}
+
+h3{
+
+    naam {
+        margin-left: 1100px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: 120px; 
+        font-size: 40px;
+      }
+
+      age {
+        margin-left: 1100px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: 130px; 
+        font-size: 40px;
+      }
+
+      birth {
+        margin-left: 1100px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: 140px; 
+        font-size: 40px;
+      }
+
+      modder {
+        margin-left: 1100px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: 140px; 
+        font-size: 50px;
+      }
+      a:link {
+        color: #7c7b7b;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: #7c7b7b;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      a {
+        text-decoration: none;
+      }
+}
+
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: Arial, sans-serif,;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: Arial, sans-serif,;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 2s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+test {
+    temp {
+        margin-left: 10px; 
+        padding-top: 0px; 
+        position: relative; 
+        top: -670px; 
+        font-size: 30px;
+        text-shadow: 0 0 10px #000000; 
+      }
+}
+
+video {
+    position: relative;
+    margin-left: -300px;
+    top: 160px;
+  }
