@@ -144,31 +144,6 @@ h3{
 }
 
 
-.rainbow {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-    font-family: Arial, sans-serif,;
-}
-.rainbow_text_animated {
-    background: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 2s ease-in-out infinite;
-    background-size: 400% 100%;
-}
-
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
-}
-
 
 .rainbow {
     text-align: center;
@@ -181,7 +156,7 @@ h3{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: rainbow_animation 2s ease-in-out infinite;
+    animation: rainbow_animation 8s ease-in-out infinite;
     background-size: 400% 100%;
 }
 
